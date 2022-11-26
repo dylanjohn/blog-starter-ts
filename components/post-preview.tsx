@@ -26,7 +26,7 @@ const PostPreview = ({
       <div className="mb-7">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
-      <h3 className="text-lg mb-3 leading-snug font-semibold">
+      <h3 className="text-lg mb-3 font-semibold">
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
           <a className="hover:underline">{title}</a>
         </Link>

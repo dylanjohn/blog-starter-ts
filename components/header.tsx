@@ -16,7 +16,7 @@ const Header = () => {
             <span className="font-semibold mr-4">Dylan Prehn</span>
           </a>
 
-          <ul className="nav hidden md:flex leading-relaxed">
+          <ul className="nav hidden md:flex">
             <li className={router.pathname == "/" ? "active" : ""}>
               <Link href="/">Work</Link>
             </li>
