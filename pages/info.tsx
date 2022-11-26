@@ -25,19 +25,13 @@ export default function Index({ allPosts }: Props) {
         </Head>
         <Container>
           <Header />
-          {/* 
-          {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )} */}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-          <Intro />
+         <div className="my-3vw">
+          <p className="text-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque diam volutpat commodo sed egestas egestas. 
+            Diam donec adipiscing tristique risus nec feugiat in fermentum posuere. Bibendum est ultricies integer quis auctor. Convallis tellus id interdum velit laoreet id donec. Vestibulum 
+            lectus mauris ultrices eros in. Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut.
+          </p>
+         </div>
         </Container>
       </Layout>
     </>

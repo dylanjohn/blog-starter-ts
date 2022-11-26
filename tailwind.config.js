@@ -12,6 +12,9 @@ module.exports = {
       },
       spacing: {
         28: '7rem',
+      '3vw': '3.33vw',
+      '4vw': '4vw',
+      '6vw': '6vw',
       },
       letterSpacing: {
         tighter: '-.04em',

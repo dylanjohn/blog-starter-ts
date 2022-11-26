@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'FTAktual';
+    src: url('/fonts/ftaktual/FTAktualTrial-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'FTAktual';
+    src: url('/fonts/ftaktual/FTAktualTrial-Medium.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'FTAktual', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 1rem;
+}
+
+ul.nav a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+ul.nav li.active a {
+    text-decoration: underline;
+}
+
+footer {}
+
+.mobile-menu {
+    position: relative;
+    z-index: 100;
+}
+
+.cover-image {
+    padding-bottom: 75%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    line-height: 0;
+}
+
+.cover-image-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.cover-image-inner img {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
