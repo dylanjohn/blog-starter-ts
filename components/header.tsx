@@ -11,19 +11,19 @@ const Header = () => {
   return (
       <div className="flex items-center py-6vw md:py-3vw">
         
-        <div className="flex justify-start lg:w-0 lg:flex-1 text-lg">
+        <div className="flex flex-col justify-start lg:w-0 lg:flex-1 text-lg">
           <a href="/">
-            <span className="font-semibold mr-4">Dylan Prehn</span>
+            <span className="font-semibold mr-4">Quisque massa est un studio de <br/>design graphique</span>
           </a>
 
-          <ul className="nav hidden md:flex">
+          {/* <ul className="nav mt-4 hidden md:flex">
             <li className={router.pathname == "/" ? "active" : ""}>
               <Link href="/">Work</Link>
             </li>
             <li className={router.pathname == "/info" ? "active" : ""}>
               <Link href="/info">Info</Link>
             </li>
-          </ul>  
+          </ul>   */}
         </div>
 
         <div className="relative flex ml-auto md:hidden mobile-menu">

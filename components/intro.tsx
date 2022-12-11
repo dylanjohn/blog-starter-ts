@@ -7,7 +7,7 @@ const Intro = () => {
         Blog.
       </h1> */}
       <h4 className="leading-loose mb-5">
-        Supersystème est un studio de design graphique, fondé à Montréal par Marie-France Gaudet et Eveline Lupien. Supersystème travaille sur des projets d’identité visuelle, d’exposition
+      Quisque consequat massa vitae nisl consequat pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat massa vitae nisl consequat pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </h4>
 
       <h4 className="leading-normal"> <a
